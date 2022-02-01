@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>ポートフォリオ</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+		<script>
+		$(function(){
+		   // #で始まるアンカーをクリックした場合に処理
+		   $('a[href^=#]').click(function() {
+		      // スクロールの速度
+		      var speed = 400; // ミリ秒
+		      // アンカーの値取得
+		      var href= $(this).attr("href");
+		      // 移動先を取得
+		      var target = $(href == "#" || href == "" ? 'html' : href);
+		      // 移動先を数値で取得
+		      var position = target.offset().top;
+		      // スムーススクロール
+		      $('body,html').animate({scrollTop:position}, speed, 'swing');
+		      return false;
+		   });
+		});
+		// ハンバーガーメニュー
+		$(function() {
+    $('.hamburger').click(function() {
+        $(this).toggleClass('active');
+ 
+        if ($(this).hasClass('active')) {
+            $('.globalMenuSp').addClass('active');
+        } else {
+            $('.globalMenuSp').removeClass('active');
+        }
+    });
+});
+		</script>
+
+	
+	</head>
+	<body>
+	    <header>
+			<!-- ハンバーガメニューここから -->
+			<div class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			  </div>
+			  
+			  <nav class="globalMenuSp">
+				  <ul>
+					  <li><a href="#about">About</a></li>
+					  <li><a href="#cont2">Skill</a></li>
+					  <li><a href="work.html" target="_blank" rel="noopener">Works</a></li>
+				  </ul>
+			  </nav>
+			<!-- ハンバーガメニューここまで -->
+		    <nav class="pc">
+		        <div class="logo"><a href="#top"><img src="img/logo.jpg"></a></div>
+		        <ul class="list">
+			        <li><a href="#about">About</a></li>
+			        <li><a href="#cont2">Skill</a></li>
+			        <li><a href="work.html" target="_blank" rel="noopener">Works</a></li>
+		        </ul>
+		    </nav>
+	    </header>
+	    
+	    <!-- プロフィールここから -->
+	    <div id="top">   
+	        <div class="hero">
+				<h1>Asuka Kuge</h1>
+				<p>PORTFOLIO</p>
+				<div class="pr">
+					<p>WEBデザインを通して、<br>沖縄のすばらしさを伝えたい、それが私の目標です♡</p>
+		        </div>
+			</div>
+	        <div class="profile">
+		        <h2 id="about">プロフィール</h2>
+		        <p class="pr-text">1980年兵庫県生まれ。<br>
+					その後、ネイリストを経て、沖縄や全国各地でスパセラピストとして働く。
+					全国のリゾートスパで勤務し、沖縄の美しさに魅せられ移住を決意。沖縄の魅力を伝えたいと思い、WEBデザインに興味を持ち勉強中。</p>
+	        </div>
+	    </div>
+	    <!-- プロフィールここまで -->
+	    
+	    <!-- 職務経歴ここから -->
+	    <div id="cont">
+		    <h2>職務経歴書</h2>
+		    <h3>経験</h3>
+		    <div class="career-oya">
+			    <div class="carer">
+				    <h4>2014年12月～2021年6月</h4>
+				    <h4>エリアマネージャー</h4>
+				    <p>店長経験を活かして、
+					沖縄エリアや関東エリアの店舗の売上分析や売上・顧客管理の業務に携わっておりました。
+					また、各店舗のスタッフ管理なども行っておりました。
+					売上アップの為の売上・顧客分析スキルやスタッフ育成の為のコーチングスキルを習得。
+					</p>
+			    </div>
+			    <div class="carer">
+			        <h4>2010年12月～2014年12月</h4>
+				    <h4>店長</h4>
+				    <p>関東の店舗の店長経験後、沖縄の新店舗の立ち上げ業務に携わり、店長として
+					フェイシャルやボディトリートメントなどの施術業務及びパソコンスキルを活かしたPOP作成などの業務をおこなっておりました。
+					ホテル接遇マナーや取り扱い化粧品の知識やブランドごとの技術の習得。<p>
+			    </div>
+		    </div>
+		    
+		    <div class="career-oya">
+			    <div class="carer">
+				    <h4>2004年10月～2009年6月</h4>
+				    <h4>ネイリスト</h4>
+				    <p>ネイルサービスの提供及び受付業務、ネイルスクールでの指導に携わっておりました。
+					スタッフやスクール制に面接も行っておりました。
+					スクール運営、指導スキルなどを習得。
+					<p>
+			    </div>
+			    <div class="carer">
+			        <h4>2003年1月～2004年3月</h4>
+				    <h4>レセプション兼ネイリスト</h4>
+				    <p>ネイルサービスの提供及び受付業務、レジ締めなどの業務に携わっておりました。
+					美容室内での勤務だったため、業務を円滑に進める為のチームワーク力やカット・カラーで来店のお客様へネイルサービスのご案内による集客スキルなどを習得。
+					<p>
+			    </div>
+		    </div>
+	    </div>
+	    <!-- 職務経歴ここまで -->
+	    
+	    <!-- skillここから -->
+	     <div id="cont2">
+		    <h2>Skill</h2>
+		    <div class="skill-oya">
+			    <div class="skill">
+			        <div class="iamges">
+				        <img src="img/html.png" alt="" width="100">
+				    </div>
+				    <div class="text">
+						<h3>HTML/CSS</h3>
+						<p>レスポンシブを含め、Webサイト制作に必要なHTMLやCSSの基本を学習。</p>
+			        </div>
+			    </div>
+			    <div class="skill">
+			       <div class="iamges">
+				       <img src="img/js.png" alt="" width="88">
+				   </div>
+				   <div class="text">
+					   <h3>JavaScript</h3>
+					   <p>JavaScriptの基本、ライブラリの実装や基本的なコード（jQuery）を学習。</p>
+			       </div>
+			    </div>
+		    </div>
+		    
+		    <div class="skill-oya">
+			    <div class="skill">
+			        <div class="iamges">
+				        <img src="img/illustrator.png" alt="" width="100">
+				    </div>
+					    <div class="text">
+					    <h3>illustrator</h3>
+						    <p>Illustratorの基本操作を学習。
+							名刺やフライヤーなどの印刷物、地図の作成などを行えます。
+							</p>
+			        </div>
+			    </div>
+			    <div class="skill">
+			        <div class="iamges">
+				        <img src="img/photoshop.png" alt="" width="100">
+				    </div>
+				    <div class="text">
+					    <h3>photoshop</h3>
+					    <p>Photoshopの基本操作を学習。
+						写真の色調補正、合成などを行えます。
+						</p>
+			        </div>
+			    </div>
+		    </div>
+		    <div class="btn">
+		        <a href="work.html" class="button" target="_blank" rel="noopener">詳細はこちら</a>
+		    </div>
+		    <a href="#" id="page-top"><img src="img/icon.png" width="50"></a>
+	    </div>
+	    <!-- skillここまで -->
+	    
+	    <footer>
+	    	<small>&copy;Asuka Kuge</small>
+	    </footer>
+	</body>
+</html>

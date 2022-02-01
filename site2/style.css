@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+}
+
+/* =================== */
+/* ヘッダー*/
+/* =================== */
+
+header {
+    width: 960px;
+    min-height: 600px;
+    margin: 0 auto;
+    background-image: url(img/Top.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caption {
+    color: #180606;
+    font-size: 40px;
+    line-height: 50px;
+    margin-left: 10rem;
+    font-family: serif;
+}
+
+/* =================== */
+/* ナビゲーション/
+/* =================== */
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+button {
+    background-color: #492E27;
+    height: 50px;
+    width: 230px;
+    text-align: center;
+    margin-right: 13px;
+}
+
+/* =================== */
+/* The Day Spa/
+/* =================== */
+
+.content {
+    position: absolute;
+    background-color: #e6d8d8;
+    width: 920px;
+    margin: 20px;
+    text-align: center;
+    font-family: serif;
+}
+
+.content img {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 30px 0;
+    color: #ffffff;
+}
+
+.main-oya {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-oya div {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: 42%;
+}
+
+.main-oya img {
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.campaing {
+    font-size: small;
+    text-align: left;
+    margin-left: 30px;
+    
+}
+
+/* =================== */
+/* SUNDARI/
+/* =================== */
+.content2 {
+    position: absolute;
+    background-color: #e6d8d8;
+    width: 920px;
+    height: 1110px;
+    margin: 10px 20px;
+    text-align: center;
+    font-family: serif;
+}
+
+.content2 img {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 30px 0;
+    color: #ffffff;
+}
+.background {
+    width: 920px;
+    height: 240px;
+    background-color: #ffffff;
+}
+
+.main2 {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.main2 img {
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.mask {
+    margin-left: 20px;
+}
+
+.oil {
+    margin-left: 21px;
+}
+
+.main-oya2 {
+    margin-right: 80px;
+}
+
+.tds {
+    margin-top: 5px;;
+}
+
+/* =================== */
+/* BR/
+/* =================== */
+.br-logo {
+    margin-top: 2px;
+    padding-top: 20px;
+}
+
+.main3 {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+
+.main3 img {
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.main-oya3 {
+    margin-left: 50px;
+}
+
+/* ======================================================================================================================================= */
+/* EH */
+/* ======================================================================================================================================= */
+.background2 {
+    width: 920px;
+    height: 220px;
+    background-color: #ffffff;
+}
+
+.eh {
+    margin-left: 35px;
+    width: 42%
+}
+
+.main4 {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+.main4 img {
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.main-oya4 {
+    margin-left: 50px;
+}
+
+/* =================== */
+/* 共通/
+/* =================== */
+.back {
+    width: 960px;
+    background-image: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    min-height: 1160px;
+    font-family: serif;
+}
+
+span {
+    color: red;
+}
+
+.price {
+    text-align: left;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+
+.img {
+    /* margin-bottom: 1rem;
+    padding: 1rem; */
+    width: 42%
+}

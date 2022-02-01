@@ -1,0 +1,374 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fffff0;
+}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #25b7c0;
+    height: 90px;
+}
+
+.navbar {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 90px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+.navbar li {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.navbar a {
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hero {
+    min-height: 450px;
+    background: url("../img/top3.jpeg") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lead {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* urumo-st */
+.content {    
+    width: 1140px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+} 
+
+.area1 {
+    width: 440px;
+    margin: 0 auto;
+}
+
+.area img {
+    width: 100%;
+    text-align: center;
+}
+
+.area1 h4 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.area2 {
+    width: 440px;
+    margin: 0 auto;
+}
+
+.hotel1 {
+    max-width: 100%;
+    padding-top: 1rem;
+    margin: 7px;
+}
+
+
+.area2 h3 {
+    text-align: center;
+}
+
+.area2 p {
+    font-size: small;
+    margin: 20px;
+}
+
+
+.btn_01 {
+    display: block;
+    background-color: blue;
+    color: white;
+    margin: 10px 70px 10px 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    border-radius: 10px;
+}
+
+.btn_02 {
+    display: block;
+    background-color:plum;
+    color: white;
+    margin: 20px 70px 10px 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    border-radius: 10px;
+}
+/* urumo-end */
+
+/* chura-st */
+.area3 {
+    width: 440px;
+    margin: 40px auto 0 auto;
+}
+
+.area3 h3 {
+    text-align: center;
+} 
+
+.area3 p { 
+    font-size: small;
+    margin: 20px; 
+}
+
+.area4 {
+    width: 440px;
+    margin: 40px auto;
+} 
+
+.hotel2 {
+    max-width: 100%;
+
+    padding-top: 1rem;
+    margin: 7px;
+}
+
+.area4 h4 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.btn_03 {
+    display: block;
+    background-color: blue;
+    color: white;
+    margin: 0 70px 0 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    border-radius: 10px;
+}
+
+.btn_04 {
+    display: block;
+    background-color:plum;
+    color: white;
+    margin: 0 70px 0 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    border-radius: 10px;
+}
+
+/* chura-end */
+
+/* spahalekulani-st  */
+.area5 {
+    width: 440px;
+    margin: 40px auto;
+}
+
+.area5 h4 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.hotel3 {
+    max-width: 100%;
+    padding-top: 1rem;
+    margin: 7px;
+}
+.area6 {
+    width: 440px;
+    margin: 40px auto 0 auto;
+}
+
+.area6 h3 {
+    text-align: center;
+}
+
+.area6 p {
+    font-size: small;
+    margin: 20px;
+}
+
+.btn_05 {
+    display: block;
+    background-color: blue;
+    color: white;
+    margin: 10px 70px 10px 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    border-radius: 10px;
+}
+
+.btn_06 {
+    display: block;
+    background-color:plum;
+    color: white;
+    margin: 20px 70px 10px 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    border-radius: 10px;
+} 
+/* spahalekulani-end*/
+
+.footer {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color:  #25b7c0;
+    height: 90px;
+}
+
+.footer-navbar {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-navbar ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+.footer-navbar li {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.footer-navbar a {
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ======================= */
+/* レスポンシブ*/
+/* ======================= */
+
+@media screen and (max-width:768px) {
+    .navbar {
+        max-width: 100%;
+    }
+    /* urumo-st */
+.content {    
+    width: 100%;
+    margin: 20px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+} 
+
+.area1 {
+    width: 100%;
+}
+
+.area1 h4 {
+    font-size: small;
+    margin-top: 0;
+}
+.area2 {
+    width: 100%;
+}
+
+.area2 h3 {
+    font-size: medium;
+}
+/* chura-st */
+.area3 {
+    width: 100%;
+}
+
+.area3 h3 {
+    font-size: medium;
+} 
+
+.area4 {
+    width: 100%;
+} 
+
+.hotel2 {
+    max-width: 100%;
+    padding-top: 1rem;
+    margin: 7px;
+}
+
+.area4 h4 {
+    font-size: small;
+    margin-top: 0;
+}
+/* spahalekulani-st  */
+.area5 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.area5 h4 {
+    font-size: small;
+    margin-top: 0;
+}
+.hotel3 {
+    max-width: 100%;
+    padding-top: 1rem;
+    margin: 7px;
+}
+.area6 {
+    width: 100%;
+    margin: 10px auto 0 auto;
+}
+
+.area6 h3 {
+    text-align: center;
+}
+
+.area6 p {
+    font-size: small;
+    margin: 20px;
+}
+
+.footer-navbar {
+    max-width: 100%;
+    margin: 30px auto 10px auto;
+}
+}
+
+
+

@@ -1,0 +1,385 @@
+@charset "utf-8";
+
+/* ======================= */
+/* 共通設定*/
+/* ======================= */
+body {
+   margin: 0;
+   padding: 0;
+   color: #3f3f3f;
+}
+
+/* ======================= */
+/* ヘッダー */
+/* ======================= */
+header {
+   width: 100%;
+   background-color: #ffffff;
+   position: fixed;
+   top: 0;
+   left: 0;
+   box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.5)
+}
+/* ======================= */
+.globalMenuSp {
+   visibility: hidden;
+   height: 0;
+}
+/* ======================= */
+nav {
+   width: 880px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.logo {
+   margin-top: 25px;
+}
+.pc {
+   height: 120px;
+   line-height: 120px;
+}
+ul.list {
+   display: flex;
+   text-align: center;
+   list-style-type: none;
+}
+
+ul.list li {
+   margin-left: 30px;
+}
+
+ul.list a {
+   text-decoration: none;
+}
+
+.list a:link {
+   color: #202020;
+ }
+ 
+ .list a:hover{
+   text-decoration: underline;
+   color: #ff0000;
+ }
+ 
+ .list a:visited{
+   color: #551a8c;
+ }
+ 
+ .list a:active{
+   color: #ff0000;
+ }
+
+/* ======================= */
+/* トップ    */
+/* ======================= */
+#top {
+   width: 100%;
+   /*height: 720px; */
+   background-color: #f7f7f7;    
+   padding-bottom: 30px;
+}
+
+.hero {
+   width: 100%;
+   height: 100px;
+   /*line-height: 320px;*/
+   padding-top: 250px;
+   padding-bottom: 160px;
+   text-align: center;
+   margin-bottom: 10px;
+   background-color: #ffffff; 
+}
+
+.hero h1, p {
+   margin: 0;
+}
+
+.pr {
+   width: 400px;
+   margin: 10px auto;
+}
+.profile {
+   width: 480px;
+   margin: 50px auto 30px auto;
+	text-align: center;
+	display: block;
+}
+
+
+.pr-text {
+	text-align: left;
+	display: inline-block;  
+}
+
+/* ======================= */
+/* コンテント */
+/* ======================= */
+#cont {
+   width: 100%;
+   padding-top: 30px;
+}
+
+#cont h2, h3 {
+   text-align: center;
+   margin: 0;
+}
+
+.career-oya {
+   width: 880px;
+   display: flex;
+   margin: 10px auto;
+}
+
+.carer {
+   width: 320px;
+   background-color: #dcdcdc;
+   padding: 20px 40px;
+   margin: 30px auto;
+}
+
+.carer h4 {
+   margin: 0;
+}
+
+.carer p {
+   margin-top: 10px;
+}
+/* ======================= */
+/* コンテント2 */
+/* ======================= */
+#cont2 {
+   width: 100%;
+   margin-top: 50px;
+   padding-top: 30px;
+   background-color: #f7f7f7;
+}
+
+#cont2 h2 {
+   text-align: center;
+}
+
+.skill-oya {
+   display: flex;
+   margin: 0 auto;
+}
+
+.skill {
+   width: 400px;
+   padding: 20px 10px;
+   margin: 0 auto; 
+   display: flex;
+}
+
+.skill h3 {
+   text-align: left;
+}
+
+.text {
+   margin-left: 20px;
+}
+
+.btn {
+   text-align: center;
+   margin-top: 80px;
+   padding-bottom: 60px;
+}
+
+.iamges img {
+   margin-top: 10px;
+}
+
+.button {
+	display: inline-block;
+	width: 160px;
+	padding: 12px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background:#F1322C;
+	border-bottom:4px solid #AD2022;
+	border-radius: 4px;
+}
+
+.button:hover {
+   cursor: pointer;
+   text-decoration: none;
+   background:#AD2022;
+   transform: translate3d(0, 4px, 0);
+   border-bottom: none;
+}
+
+#page-top {
+   display: block;
+   font-weight: bold;
+   padding: 5px 0 10px 0;
+   text-align: center;
+   background: #4c4c4c; /*背景色*/
+   color: #ffffff; /*文字色*/
+   transition: .3s;
+   height: 35px;
+}
+
+/* ======================= */
+/* フッター */
+/* ======================= */
+footer {
+   width: 100%;
+   height: 100px;
+   line-height: 100px;
+   text-align: center;
+   background-color: #333333;
+   color: #556167;
+}
+
+
+
+/*スマホ・タブレットサイズ */
+@media screen and (max-width:768px) {
+/*　ハンバーガーボタン　*/
+.hamburger {
+   display : block;
+   position: fixed;
+   z-index : 3;
+   right : 13px;
+   top   : 12px;
+   width : 42px;
+   height: 42px;
+   cursor: pointer;
+   text-align: center;
+ }
+ .hamburger span {
+   display : block;
+   position: absolute;
+   width   : 30px;
+   height  : 2px ;
+   left    : 6px;
+   background : #555;
+   -webkit-transition: 0.3s ease-in-out;
+   -moz-transition   : 0.3s ease-in-out;
+   transition        : 0.3s ease-in-out;
+ }
+ .hamburger span:nth-child(1) {
+   top: 10px;
+ }
+ .hamburger span:nth-child(2) {
+   top: 20px;
+ }
+ .hamburger span:nth-child(3) {
+   top: 30px;
+ }
+ 
+ /* ナビ開いてる時のボタン */
+ .hamburger.active span:nth-child(1) {
+   top : 16px;
+   left: 6px;
+   -webkit-transform: rotate(-45deg);
+   -moz-transform   : rotate(-45deg);
+   transform        : rotate(-45deg);
+ }
+ 
+ .hamburger.active span:nth-child(2),
+ .hamburger.active span:nth-child(3) {
+   top: 16px;
+   -webkit-transform: rotate(45deg);
+   -moz-transform   : rotate(45deg);
+   transform        : rotate(45deg);
+ }
+ 
+.globalMenuSp {
+   visibility: visible;
+   height: 174px;
+}
+ nav.globalMenuSp {
+   position: fixed;
+   z-index : 2;
+   top  : 0;
+   left : 0;
+   color: #000;
+   background: #fff;
+   text-align: center;
+   transform: translateX(100%);
+   transition: all 0.6s;
+   width: 100%;
+ }
+ 
+ nav.globalMenuSp ul {
+   background: #ccc;
+   margin: 0 auto;
+   padding: 0;
+   width: 100%;
+ }
+ 
+ nav.globalMenuSp ul li {
+   list-style-type: none;
+   padding: 0;
+   width: 100%;
+   border-bottom: 1px solid #fff;
+ }
+ nav.globalMenuSp ul li:last-child {
+   padding-bottom: 0;
+   border-bottom: none;
+ }
+ nav.globalMenuSp ul li:hover{
+   background :#ddd;
+ }
+ 
+ nav.globalMenuSp ul li a {
+   display: block;
+   color: #000;
+   padding: 1em 0;
+   text-decoration :none;
+ }
+ 
+ /* このクラスを、jQueryで付与・削除する */
+ nav.globalMenuSp.active {
+   transform: translateX(0%);
+ }
+ .pc {
+    display: none;
+ }
+/*　ハンバーガーボタンメニュー　*/
+.hero {
+   padding-top: 100px;
+   padding-bottom: 150px;
+}
+   nav {
+      width: 100%;
+   }
+	ul.list li {
+	    margin-left: 20px;
+	}
+	.profile {
+	    width: 90%;
+	}
+
+	.pr {
+	   width: 60%;
+       margin: 10px auto;
+	}
+
+	.career-oya {
+	   width: 100%;
+	   display: flex;
+	   flex-direction: column;
+	   margin: 0 auto;
+	}
+
+	.carer {
+		width: 80%;
+		margin: 20px auto;
+	}
+
+	.skill-oya {
+	   display: flex;
+       flex-direction: column;
+	   margin: 10px auto;
+	}
+
+   .skill {
+  width: 90%;
+}
+
+}
