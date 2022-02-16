@@ -93,7 +93,6 @@ img.CHURA3 {
     margin-top: 2rem;
     font-size: small;
     border-radius: 8px;
-    padding-bottom: 20px;
 }
 
 .main4 h4 {
@@ -218,7 +217,7 @@ img.CHURA3 {
 
     .main4 {
         margin: 0 2rem;
-        
+        padding-bottom: 20px;
     }
 
     /* .btn_01 {
