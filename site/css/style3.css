@@ -66,7 +66,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px 100px;
+    margin: 40px 50px;
     font-size: small;
 }
 /* top-end */
@@ -90,10 +90,10 @@ img.CHURA3 {
 .main4 {
     flex: 1;
     background-color: #ffe4e1;
-    height: 150px;
     margin-top: 2rem;
     font-size: small;
     border-radius: 8px;
+    adding-bottom: 20px;
 }
 
 .main4 h4 {
