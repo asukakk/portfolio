@@ -90,10 +90,10 @@ img.CHURA3 {
 .main4 {
     flex: 1;
     background-color: #ffe4e1;
-    height: 150px;
     margin-top: 2rem;
     font-size: small;
     border-radius: 8px;
+    padding-bottom: 20px;
 }
 
 .main4 h4 {
@@ -106,6 +106,7 @@ img.CHURA3 {
     justify-content: center;
     align-items: center;
     margin: 8px;
+    padding: 0 20px;
 }
 
 .btn_01 {
@@ -155,6 +156,7 @@ img.CHURA3 {
 
 .infomation p {
     font-size: small;
+    padding: 0 15px;
 }
 
 .map {
