@@ -99,6 +99,7 @@ img.halekulani3 {
 .main4 h4 {
     text-align: start;
     margin-left: 20px;
+    padding-bottom: 10px;
 }
 
 .main4 p {
@@ -106,6 +107,7 @@ img.halekulani3 {
     justify-content: center;
     align-items: center;
     margin: 8px;
+    padding: 0 20px;
 }
 
 .btn_01 {
@@ -155,6 +157,7 @@ img.halekulani3 {
 
 .infomation p {
     font-size: small;
+    padding: 20px;
 }
 
 .map {
